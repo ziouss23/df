@@ -1,0 +1,22 @@
+version: "5.3"
+
+models:
+  - id: Q15B
+    hf_id: "richardyoung/Qwen2.5-Coder-1.5B-heretic"
+    revision: "main"
+    enabled: true
+
+  - id: Q4B
+    hf_id: "HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive"
+    revision: "main"
+    enabled: true
+
+  - id: Q14B
+    hf_id: "RootMonsteR/Qwen3-14B-Abliterated"
+    revision: "main"
+    enabled: true
+
+  - id: Q27B
+    hf_id: "orcarouter/Qwen3.8-27B-Uncensored"
+    revision: "main"
+    enabled: true

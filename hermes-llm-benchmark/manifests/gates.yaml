@@ -1,0 +1,19 @@
+version: "5.3"
+
+campaign:
+  warmups: 2
+  measured_runs: 8
+
+statistics:
+  max_cv: 0.25
+  suspect_cv: 0.15
+  confidence_level: 0.95
+
+hardware:
+  minimum_free_vram_gb: 6.0
+  require_cuda: true
+
+execution:
+  stop_on_load_failure: true
+  stop_on_invalid_metrics: true
+  save_raw_results: true

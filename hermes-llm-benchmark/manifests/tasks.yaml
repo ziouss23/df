@@ -1,0 +1,15 @@
+version: "5.3"
+
+standard:
+  enabled: true
+  tasks:
+    - mmlu
+    - gsm8k
+    - gpqa
+
+hermes:
+  enabled: true
+  tasks:
+    - pac_reasoning
+    - pac_extraction
+    - hermes_agent
